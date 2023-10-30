@@ -6,7 +6,7 @@
 #    By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/13 10:01:49 by fvoicu            #+#    #+#              #
-#    Updated: 2023/10/18 05:36:58 by fvoicu           ###   ########.fr        #
+#    Updated: 2023/10/30 19:23:56 by fvoicu           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,8 +23,7 @@ OBJ_DIR 	:=	obj
 OBJ_FILES	:= $(notdir $(SRC:.c=.o))
 OBJ			:= $(addprefix $(OBJ_DIR)/, $(OBJ_FILES))
 
-TURQUISE = \033[0;32m
-RED = \033[0;31m
+
 GREEN = \033[0;32m
 MAGENTA = \033[0;95m
 
