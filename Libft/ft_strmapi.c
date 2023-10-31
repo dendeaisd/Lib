@@ -6,11 +6,11 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/28 15:45:46 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/05/20 07:08:14 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:14:38 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

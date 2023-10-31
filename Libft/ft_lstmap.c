@@ -6,11 +6,11 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 18:34:26 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/05/21 16:04:37 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:15:28 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

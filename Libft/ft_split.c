@@ -6,11 +6,11 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 10:49:20 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/05/21 19:24:16 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:08:47 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 static size_t	ft_slen(char const *str, char c)
 {

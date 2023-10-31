@@ -6,11 +6,11 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 16:04:30 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/05/21 15:47:21 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:11:21 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

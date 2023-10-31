@@ -6,11 +6,11 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 06:53:41 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/05/21 15:46:07 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:13:37 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 int	ft_lstsize(t_list *lst)
 {
@@ -18,7 +18,7 @@ int	ft_lstsize(t_list *lst)
 
 	i = 0;
 	while (lst != NULL)
-	{	
+	{
 		i++;
 		lst = lst->next;
 	}

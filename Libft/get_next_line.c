@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/16 16:20:24 by flaviav           #+#    #+#             */
-/*   Updated: 2023/09/21 15:22:59 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:10:48 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,4 +95,3 @@ char	*get_next_line(int fd)
 	res = extract_after_nl(res);
 	return (line);
 }
-		
