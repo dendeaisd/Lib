@@ -6,7 +6,7 @@
 #    By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/15 13:57:02 by fvoicu            #+#    #+#              #
-#    Updated: 2023/10/30 20:01:51 by fvoicu           ###   ########.fr        #
+#    Updated: 2023/10/31 13:01:40 by fvoicu           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,7 +61,7 @@ clean:
 			sleep 0.03; \
 		fi; \
 	done
-	@printf "$(UP)$(BEGIN)$(CUT)$(MAGENTA)Objects removed successfully🧽$(RESET)\n"
+	@printf "$(UP)$(BEGIN)$(CUT)$(MAGENTA)Objects removed successfully🧽$(RESET)"
 
 fclean:	clean
 	@$(RM) $(NAME)
