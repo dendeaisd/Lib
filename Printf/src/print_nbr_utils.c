@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 04:38:52 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/09/20 15:02:45 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:35:32 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	handle_special_flags(size_t nbr, t_info *info)
 		info->count += write(STDOUT_FILENO, "-", 1);
 	else if (info->nbr.sign >= 0 && info->flag.show_sign
 		&& info->format.width > 1 && info->flag.zero_padd == true)
-	{	
+	{
 		info->count += write(STDOUT_FILENO, "+", 1);
 		info->printed.sign = true;
 	}

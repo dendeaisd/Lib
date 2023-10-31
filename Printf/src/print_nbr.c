@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 15:04:18 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/09/20 15:02:29 by fvoicu           ###   ########.fr       */
+/*   Updated: 2023/10/31 12:36:10 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ static void	print_nbr_by_type(size_t nbr, t_info *info)
 static void	print_nbr_by_prec(size_t nbr, t_info *info, int print_len)
 {
 	if (!info->printed.sign)
-	{	
+	{
 		if (info->nbr.sign < 0 && !info->flag.zero_padd)
 			info->count += write(STDOUT_FILENO, "-", 1);
 		else if (info->nbr.sign >= 0 && info->flag.show_sign)
