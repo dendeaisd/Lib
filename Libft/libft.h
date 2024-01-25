@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 05:30:07 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/01/25 19:37:46 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/01/25 23:01:16 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ char	*fv_strtok_r(char *str, const char *delim, char **saveptr);
 char	**fv_split(char const *s, char c);
 bool	fv_is_space(char c);
 long	fv_atol(const char *str);
+double	fv_atof(const char *str);
 char	**fv_split(char const *s, char c);
 int		fv_hash_func(int val, int size);
 void	fv_free_array(char **array);
