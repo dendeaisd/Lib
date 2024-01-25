@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 05:30:07 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/11/02 21:55:16 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/01/25 17:40:14 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,7 @@ void	ft_putnbr_fd(int n, int fd);
 //Additional functions
 char	*fv_strjoin_and_free(char *s1, char *s2);
 char	*fv_strtok(char *str, const char *delim);
+char	*fv_strtok_r(char *str, const char *delim, char **saveptr);
 char	**fv_split(char const *s, char c);
 bool	fv_is_space(char c);
 long	fv_atol(const char *str);

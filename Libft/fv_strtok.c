@@ -6,11 +6,13 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 18:28:47 by fvoicu            #+#    #+#             */
-/*   Updated: 2023/10/07 21:44:00 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/01/25 17:42:10 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <string.h>
+#include <stdlib.h>
 
 char	*fv_strtok(char *str, const char *delim)
 {
@@ -34,4 +36,23 @@ char	*fv_strtok(char *str, const char *delim)
 		++buff;
 	}
 	return (token_start);
+}
+
+char	*fv_strtok_r(char *str, const char *delim, char **saveptr)
+{
+	char	*end;
+
+	if (!str)
+		str = *saveptr;
+	if (!str || !(*str))
+		return (NULL);
+	str += strspn (str, delim);
+	if (!(*str))
+		return (NULL);
+	end = str + strcspn (str, delim);
+	if (*end)
+		return (*end = '\0', *saveptr = end + 1, str);
+	else
+		*saveptr = end;
+	return (str);
 }
